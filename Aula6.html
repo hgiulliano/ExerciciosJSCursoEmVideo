@@ -19,10 +19,6 @@ background-color: blanchedalmond;
             font: normal 15pt Georgia;
             font-style: oblique;
         }
-        p2{
-            font: normal 15pt Georgia;
-            font-style: italic;
-        }
     </style>
 </head>
 <body>
@@ -32,17 +28,17 @@ background-color: blanchedalmond;
 <script>
     document.write('<h1>Resolução Questão 1</h1><br><br>')
     var nome = prompt(`Qual o seu nome?`)
-    document.write(`<p2>Seu nome é ${nome}</p2><br>`)
-    document.write(`<p2>Olá ${nome}, seu nome tem ${nome.length} letras</p2><br>`)
-    document.write(`<p2>Seu nome em maiusculas é ${nome.toUpperCase()}</p2><br>`)
-    document.write(`<p2>Seu nome em minusculas é ${nome.toLowerCase()}</p2><br><br>`)
+    document.write(`<p1>Seu nome é ${nome}</p1><br>`)
+    document.write(`<p1>Olá ${nome}, seu nome tem ${nome.length} letras</p1><br>`)
+    document.write(`<p1>Seu nome em maiusculas é ${nome.toUpperCase()}</p1><br>`)
+    document.write(`<p1>Seu nome em minusculas é ${nome.toLowerCase()}</p1><br><br>`)
 
     document.write('<h1>Resolução Questão 2</h1><br><br>')
     var salario = Number(prompt(`Qual o valor do seu salario ?`));
-    document.write(`<p2>O numero que compoe o seu salario é <h1>${salario}</h1><p2><br><br>`)
-    document.write(`<p2>Seu salario formatado em reais brasileiros é de: <h1>${salario.toLocaleString('pt-br',{style: 'currency', currency:'BRL'})}</h1><p2><br><br>`)
-    document.write(`<p2>Seu salario formatado em euros é de: <h1>${salario.toLocaleString('pt-br',{style: 'currency', currency:'EUR'})}</h1><p2><br><br>`)
-    document.write(`<p2>Seu salario formatado em dólares é de: <h1>${salario.toLocaleString('pt-br',{style: 'currency', currency:'USD'})}</h1><p2>`)
+    document.write(`<p1>O numero que compoe o seu salario é <h1>${salario}</h1></p1><br><br>`)
+    document.write(`<p1>Seu salario formatado em reais brasileiros é de: <h1>${salario.toLocaleString('pt-br',{style: 'currency', currency:'BRL'})}</h1></p1><br><br>`)
+    document.write(`<p1>Seu salario formatado em euros é de: <h1>${salario.toLocaleString('pt-br',{style: 'currency', currency:'EUR'})}</h1></p1><br><br>`)
+    document.write(`<p1>Seu salario formatado em dólares é de: <h1>${salario.toLocaleString('pt-br',{style: 'currency', currency:'USD'})}</h1></p1>`)
 
 </script>
 
